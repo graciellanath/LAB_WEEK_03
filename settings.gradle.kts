@@ -10,7 +10,9 @@ pluginManagement {
         mavenCentral()
         gradlePluginPortal()
     }
+    // Hapus blok plugins { ... } supaya Android Studio otomatis mengelola versi plugin
 }
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
